@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cast-vote": "npx hardhat run scripts/CastVoteWithHardhat.ts --network sepolia",
+    "delegate": "npx hardhat run scripts/DelegateVoteWithHardhat.ts --network sepolia",
+    "get-proposal": "npx hardhat run scripts/GetProposalWithHardhat.ts --network sepolia",
+    "grant-vote": "npx hardhat run scripts/GiveRightToVoteWithHardhat.ts --network sepolia"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.15"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "dotenv": "^16.4.5"
+  }
+}
