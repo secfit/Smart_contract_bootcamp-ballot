@@ -19,5 +19,6 @@ nb: you should declare environement variabl on .env before run each step.
 ```shell
 npx hardhat run scripts/DeployWithHardhat.ts --network sepolia
 npx hardhat run scripts/CastVoteWithHardhat.ts --network sepolia
+npx hardhat run scripts/DelegateVoteWithHardhat.ts --network sepolia
 npx hardhat run scripts/GiveRightToVoteWithHardhat.ts --network sepolia
 ```
