@@ -8,7 +8,7 @@
     "get-proposal": "npx hardhat run scripts/GetProposalWithHardhat.ts --network sepolia",
     "grant-vote": "npx hardhat run scripts/GiveRightToVoteWithHardhat.ts --network sepolia"
   },
-  "author": "",
+  "author": "Tarik Achoughi",
   "license": "ISC",
   "description": "",
   "devDependencies": {
