@@ -13,6 +13,13 @@ npm install hardhat@2.22.15
 <br>
 <br>
 
+You should declare CONTRACT_ADDRESS, PROPOSAL_INDEX, VOTER_ADDRESS in environment variable on .env file
+```shell
+CONTRACT_ADDRESS ="0x88888888888888888888888888888888888888"
+PROPOSAL_INDEX =1
+VOTER_ADDRESS="0x5555555555555555555555555555555"
+```
+
 To run vote:
 nb: you should declare environement variabl on .env before run each step.
 
