@@ -1,4 +1,4 @@
-import { ethers } from "hardhat";  // Use ethers from Hardhat runtime
+import { ethers } from "hardhat";
 
 async function main() {
   const contractAddress = process.env.CONTRACT_ADDRESS;
